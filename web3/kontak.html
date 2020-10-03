@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title>WEB 3</title>
+	<link rel="stylesheet" type="text/css"
+	media="all" href="style.css">
+</head>
+<body>
+	<div id="layout">
+		<div id="header">
+		<img src="image/header.jpg" class="header">
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="index.html">Beranda</a></li>
+				<li><a href="profil.html">Tentang Saya</a></li>
+				<li><a href="kontak.html">Kontak Kami</a></li>
+				<li><a href="login.html">Masuk</a></li>
+			</ul>
+			</div>
+		<div id="runningtext">
+		<marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();" direction="left">
+			Selamat Datang di Website Saya
+		</marquee>
+		</div>
+		<div id="kontak">
+			<div class="kontak">
+			<h2> Kontak Kami </h2><br>
+				<form action="kontakproses.php" method="post">
+				<table class="tablekontak">
+					<pre>
+				<tr>
+					<td class="kolom1"> Nama Lengkap </td>
+					<td class="kolom2"> <INPUT TYPE="text" NAME=nama size="50"> </td>
+				</tr>
+				<tr>
+					<td> E-mail </td>
+					<td> <INPUT TYPE="text" NAME="email" size="50"> </td>
+				</tr>
+				<tr>
+					<td> No. HP </td>
+					<td> <INPUT TYPE="text" NAME="nohp" size="50"> </td>
+				</tr>
+				<tr>
+					<td> Kota </td>
+					<td> <INPUT TYPE="text" NAME="kota" size="50"> </td>
+				
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>	
+				
+				<tr>
+					<td>&nbsp;</td>
+					<td><INPUT TYPE=submit NAME=kirim value=&nbsp;&nbsp;kirim&nbsp;&nbsp;>&nbsp;&nbsp;<INPUT TYPE=Reset Name=reset Value=&nbsp;&nbsp;reset&nbsp;&nbsp;> </td>
+				</tr>
+				</pre>
+			</table>
+			</form>
+			</div>
+		</div>
+		<div id="footer"> &Copy Right 2020, By Ade Ryandanu </div>
+	</div>
+</body>
+</html>
